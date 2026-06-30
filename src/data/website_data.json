@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Digital Lab Dwarka",
+    "letters": "DL",
+    "tagline": "The Exclusive Agency for Digital Dominance & High-Concept Graphic Design",
+    "vision": "We engineer high-performance search campaigns, paid media funnels, and bespoke, luxury digital layouts for brands that reject the ordinary.",
+    "sub_tagline": "Classic aesthetics. Futuristic performance. Unrivaled growth.",
+    "slogan": "One & Only",
+    "founded": "2023",
+    "origin": "Dwarka sector-1, New Delhi"
+  },
+  "narrative": {
+    "hero_badge": "Classic Aesthetics × Futuristic Engineering",
+    "hero_title_prefix": "The Absolute Destination for",
+    "hero_title_highlight": "High-Concept Design & Digital Dominance.",
+    "hero_desc": "Digital Lab Dwarka is an exclusive, results-obsessed design and performance marketing studio. We reject generic templates. We construct hyper-qualified local SEO frameworks, premium graphic interfaces, and high-ROI ad pipelines that command attention.",
+    "cta_consultation": "Secure Private Consultation",
+    "cta_explore": "Explore Creative Pillars"
+  },
+  "core_philosophies": [
+    {
+      "id": "visual-mastery",
+      "title": "Elite Graphic Artistry",
+      "subtitle": "Classic typographic mastery paired with state-of-the-art vector layout, high-fidelity UI/UX, and bespoke branding guides.",
+      "metric": "100% Custom Work"
+    },
+    {
+      "id": "digital-dominance",
+      "title": "Hyper-Targeted Engineering",
+      "subtitle": "Mathematically precise search optimization, Local Pack dominance in Southwest Delhi, and high-converting performance ads.",
+      "metric": "5.4x Avg ROAS"
+    },
+    {
+      "id": "exclusive-status",
+      "title": "The One & Only Studio",
+      "subtitle": "We operate with a limited client roster, ensuring our principal designers and senior engineers personally sculpt your campaigns.",
+      "metric": "Strict Roster Limit"
+    }
+  ],
+  "graphic_design_showcase": {
+    "title": "Bespoke Graphic Design & Visual Engineering",
+    "subtitle": "Our visual studio merges classic editorial layout with high-speed digital interactions. We create branding assets, luxury typography, vector collateral, and high-converting ad graphics that capture attention instantly.",
+    "pillars": [
+      {
+        "title": "Luxury Corporate Identity",
+        "desc": "Sophisticated logos, styleguides, custom fonts, and high-fashion corporate design frameworks designed to stand apart."
+      },
+      {
+        "title": "Conversion-First Graphic Assets",
+        "desc": "Stunning Meta and Google ad banners, high-click thumbnails, and custom-designed visual decks that command maximum click-through rates."
+      },
+      {
+        "title": "Premium UI/UX Prototyping",
+        "desc": "Pixel-perfect React interfaces, interactive wireframes, and gorgeous tactile responsive web systems styled with bespoke micro-animations."
+      }
+    ]
+  },
+  "trust_badges": {
+    "count": "120+ Premier Indian Brands",
+    "rating": "4.9/5 Elite Rating"
+  }
+}

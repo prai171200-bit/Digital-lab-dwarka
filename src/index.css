@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-blue: #0F52BA;
+  --color-brand-dark: #0A0A0A;
+  --color-brand-accent: #FF7A00;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-bounce-slow: bounce 3s infinite;
+}
+
+@layer base {
+  body {
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .bg-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 85% 20%, rgba(15, 82, 186, 0.22) 0%, transparent 45%),
+      radial-gradient(circle at 15% 80%, rgba(255, 122, 0, 0.14) 0%, transparent 45%),
+      radial-gradient(circle at 50% 50%, rgba(15, 82, 186, 0.08) 0%, transparent 60%),
+      linear-gradient(rgba(255, 255, 255, 0.007) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.007) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .glass-dark {
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(15, 82, 186, 0.15);
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(255, 122, 0, 0.2);
+  }
+
+  .bg-glow.bg-cosmic {
+    background: 
+      radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.2) 0%, transparent 40%),
+      radial-gradient(circle at 90% 80%, rgba(249, 115, 22, 0.16) 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, rgba(15, 82, 186, 0.12) 0%, transparent 55%),
+      linear-gradient(rgba(255, 255, 255, 0.004) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.004) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 80px 80px, 80px 80px;
+  }
+
+  .bg-glow.bg-slate {
+    background: 
+      radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.04) 0%, transparent 50%),
+      linear-gradient(rgba(255, 255, 255, 0.003) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.003) 1px, transparent 1px);
+    background-size: 100% 100%, 40px 40px, 40px 40px;
+    background-color: #060606;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+

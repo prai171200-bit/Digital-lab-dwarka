@@ -1,0 +1,6 @@
+{
+  "name": "Digital Lab Dwarka",
+  "description": "Premium Digital Marketing Agency platform featuring full SEO/SEM agency showcase, interactive ROI calculator, booking system, client dashboard, and an admin CMS portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
